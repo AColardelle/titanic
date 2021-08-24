@@ -21,9 +21,8 @@ def clean_age(data):
     data["Age"] = ages
 
 
-
-
-def average_age(data):
+b7fa877e356858c
+:
     clean_age(data)
     return sum(data["Age"]) / len(data["Age"])
 
